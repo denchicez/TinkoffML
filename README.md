@@ -1,15 +1,20 @@
 # TinkoffML
-Introductory task to the tinkoff school for ml. Complete in Python 3.8.
+Introductory task to the tinkoff school for ml.
 
 
 
 # Fast run
+## Install python 3.8.
+## pip install -r requirements.txt
+
 ## Train model
 ```
 python3 train.py --model model.pkl --input-dir data 
 ```
 ## Generate text
+```
 python3 generate.py --model model.pkl --length 10
+```
 
 # Tips
 ## For train you can add text in data folder! It will be train on this .txt!
